@@ -142,7 +142,7 @@ elif st.session_state.page == "SMS":
         st.error(
             "Model is not loaded. Cannot perform analysis. Please check the sidebar for error messages.")
     else:
-        user_input = st.text_area("📱 Enter a message to analyze:",
+        user_input = st.text_area("Enter a message to analyze:",
                                   height=150, placeholder="Paste your SMS message here...")
         col1, col2, col3 = st.columns([2, 1, 2])
         with col2:
