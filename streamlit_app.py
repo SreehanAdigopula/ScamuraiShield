@@ -113,7 +113,7 @@ if st.session_state.page == "About":
         <div class="content-subtitle">Your Cyber-Defense Dojo, Powered by AI</div>
         <div class="content-section">
             Welcome to <span class="highlight">Scamurai Suite</span>: a skilled collection of AI-driven models 
-            that slice through scams and keeps everything safe.
+            that will slice through scams and keeps everything safe.
         </div>
         <div class="content-section">
             🥷 <b>Models (Active & Upcoming):</b>
@@ -122,11 +122,6 @@ if st.session_state.page == "About":
                 <li><span class="highlight">Mail Shuriken (Email)</span>: (Coming soon) Scans emails for phishing attempts.</li>
                 <li><span class="highlight">Voice Tanto (Voice)</span>: (Coming soon) Analyzes scam call transcripts or audio.</li>
             </ul>
-        </div>
-        <div class="content-section">
-            💡 <span class="highlight">Purpose:</span> Designed as a college project blending 
-            cybersecurity and artificial intelligence, aimed at helping individuals and businesses 
-            identify digital threats before they strike.
         </div>
         <div class="content-section">
             👨‍💻 <span class="highlight">Developed by:</span> <b>Sreehan Adigopula</b><br>
@@ -177,7 +172,7 @@ elif st.session_state.page == "SMS":
                     <div class="result-container result-safe">
                         <h2 style='color:#28a745;'>✅ MESSAGE APPEARS SAFE ✅</h2>
                         <p>Confidence Level: <strong>{confidence:.1%}</strong></p>
-                        <p>This message appears to be legitimate. However, always remain vigilant and think before you click.</p>
+                        <p>This message appears to be legitimate. However, always be cautious and watch out.</p>
                     </div>
                     """, unsafe_allow_html=True
                 )
@@ -188,13 +183,13 @@ elif st.session_state.page == "Email":
     st.markdown("<h1 style='color:#00e0ff;'>📧 Mail Shuriken (Email Scam Detector)</h1>",
                 unsafe_allow_html=True)
     st.markdown("---", unsafe_allow_html=True)
-    st.info("🚧 **Coming Soon** — This module will analyze suspicious emails for phishing intent and malicious content.")
+    st.info("🚧 **Coming Soon** — This model will analyze suspicious emails for phishing intent and malicious content.")
 
 elif st.session_state.page == "Voice":
     st.markdown("<h1 style='color:#00e0ff;'>🎙️ Voice Tanto (Voice Scam Detector)</h1>",
                 unsafe_allow_html=True)
     st.markdown("---", unsafe_allow_html=True)
-    st.info("🎙️ **Coming Soon** — This module will detect scam or fraudulent voice messages and calls.")
+    st.info("🚧 **Coming Soon** — This model will detect scam or fraudulent voice messages and calls.")
 
 
 elif st.session_state.page == "Contact":
