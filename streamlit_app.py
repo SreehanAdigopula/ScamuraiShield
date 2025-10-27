@@ -116,7 +116,7 @@ if st.session_state.page == "About":
             that will slice through scams and keeps everything safe.
         </div>
         <div class="content-section">
-            🥷 <b>Models (Active & Upcoming):</b>
+            <b>Models (Active & Upcoming):</b>
             <ul>
                 <li><span class="highlight">Text Katana (SMS)</span>: Detects scam or spam text messages in real time.</li>
                 <li><span class="highlight">Mail Shuriken (Email)</span>: (Coming soon) Scans emails for phishing attempts.</li>
@@ -124,7 +124,7 @@ if st.session_state.page == "About":
             </ul>
         </div>
         <div class="content-section">
-            👨‍💻 <span class="highlight">Developed by:</span> <b>Sreehan Adigopula</b><br>
+            <span class="highlight">Developed by:</span> <b>Sreehan Adigopula</b><br>
             Year: <b>2025</b><br>
         </div>
     </div>
